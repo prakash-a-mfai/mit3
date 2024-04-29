@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  
+  <title>MIT 3 | Intro component with sign up form</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<div class="main">
+  <div class="left">
+    <h1 id="head">learn to code by <br>watching others </h1>
+    <p id="txt" >see how experienced developers solve problems in real time <br> watching scripted tutorials is great but understanding how <br> developer think is invaluable</p>
+  </div>
+  <div class="right">
+    <button  id="try">try it for 7 days <span>then $20/mo .thereafter</span></button>
+    
+    <div class="container">
+      <input type="text" class="input" id="fname" required minlength="4" placeholder="firstname"> <br> 
+      <input type="text"  class="input"  id="lastname" required minlength="1" placeholder="lastname"><br>
+      <input type="text"  class="input"  id="email" required  placeholder="email"><br>
+      <input type="password"  class="input"  id="pass" required minlength="6" maxlength="16" placeholder="password"><br>
+    <button onclick="display()" id="claim">claim your free trail</button>
+    </div>
+  </div> 
+
+
+      
+  </div>
+</div>  
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+body{
+    background-color:  hsl(0, 100%, 74%) ;
+    background-image: url("./images/bg-intro-desktop.png");
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:150px;
+}
+#txt{
+    font-size: 20px;
+    color: white;
+}
+#head{
+    color:white;
+    font-size: 50px;
+}
+.left{
+    margin-top:30px;
+}
+.container{
+    height: 600px;
+    width:500px;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 50px;
+}
+#try{
+    height: 50px;
+    width:550px;
+    border-radius: 12px;
+    background-color:hsl(248, 32%, 49%);
+    color: white;
+    font-size: 20px;
+    margin-top: 40px;
+}
+.input{
+    height:50px;
+    width: 400px;
+    border-radius: 5px;
+}
+#claim{
+    height:50px;
+    width: 400px;
+    border-radius: 5px;
+    background-color: hsl(154, 59%, 51%);
+    font-size: 20px;
+    color: white;
+}
+span{
+    color: hsl(246, 25%, 77%);
+}
